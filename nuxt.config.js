@@ -45,6 +45,6 @@ export default {
   },
   target: 'static',
   router: {
-    base: 'https://h3park.github.io/deployoTest/'
+    base: '/deployoTest'
   }
 }
