@@ -12,7 +12,17 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      {property:"og:title", content:"기록하는 삶📚"},
+
+      // Type
+      {property:"og:type", content:"website"},
+
+      // 대표 url 
+      {property: "og:url", content: "https://h3park.github.io/deployoTest/"},
+    
+      // 이미지. 이미지 사이즈는 410x200px 을 권장한다.
+      {property: "og:image", content: "https://i1.daumcdn.net/thumb/C264x200/?fname=https://tistory2.daumcdn.net/tistory/3454287/skinCover/199033df9674456f9121c367ba463d76"}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
