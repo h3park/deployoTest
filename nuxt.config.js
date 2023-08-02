@@ -13,7 +13,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
-      {property:"og:title", content:"도아아아"},
+      {property:"og:title", content:"뭔데"},
 
 // Type
       {property:"og:type", content:"website"},
