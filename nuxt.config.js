@@ -22,7 +22,7 @@ export default {
       {property: "og:url", content: "https://h3park.github.io/deployoTest/"},
     
       // 이미지. 이미지 사이즈는 410x200px 을 권장한다.
-      {property: "og:image", content: "./img.jpg"}
+      {property: "og:image", content: "https://ibb.co/vcy7MdR"}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
