@@ -22,7 +22,7 @@ export default {
       {property: "og:url", content: "https://h3park.github.io/deployoTest/"},
     
     // 이미지. 이미지 사이즈는 410x200px 을 권장한다.
-      {property: "og:image", content: "https://i1.daumcdn.net/thumb/C264x200/?fname=https://tistory2.daumcdn.net/tistory/3454287/skinCover/199033df9674456f9121c367ba463d76"}
+      {property: "og:image", content: "https://ifh.cc/g/okbFV3.jpg"}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
