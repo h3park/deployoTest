@@ -13,7 +13,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
-      {property:"og:title", content:"기록하는 삶📚"},
+      {property:"og:title", content:"도아"},
 
       // Type
       {property:"og:type", content:"website"},
