@@ -22,6 +22,15 @@
           >, whether you are new or have previous experience with the
           framework.<br />
         </p>
+        <audio controls autoplay >
+          <source src='http://soundbible.com/mp3/Air Plane Ding-SoundBible.com-496729130.mp3' type="audio/mpeg">
+        </audio>
+
+
+        <b-button @click="audioPlay">TEST</b-button>
+        <img                  
+              :src="require('../assets/gallery0.jpg')"              
+            >  
         <p class="mt-4 pt-4 text-gray-800 border-t border-dashed">
           To get started, remove
           <code class="bg-gray-100 text-sm p-1 rounded border"
@@ -39,7 +48,32 @@
 </template>
 
 <script>
+const sound = require('../assets/Ring.mp3')
 export default {
   name: "NuxtTutorial",
+  mounted(){
+    console.log(require('../assets/gallery0.jpg'))
+  },
+  methods:{
+    audioPlay(){
+      // let audio = new Audio('http://soundbible.com/mp3/Air Plane Ding-SoundBible.com-496729130.mp3')
+      console.log(require('../assets/gallery0.jpg'))
+      console.log(require('@/sample.mp3'))
+      let audio = new Audio('../sample.mp3');
+      console.log('audio')
+      console.log(audio)
+      let playPromise = audio.play();
+      if (playPromise !== undefined) {
+        playPromise.then(function() {
+          console.log("success")
+        }).catch(function(error) {
+          console.log(error)
+          // Automatic playback failed.
+          // Show a UI element to let the user manually start playback.
+        });
+      }
+      new Audio(require('@/sample.mp3')).play()
+    }
+  }
 };
 </script>
